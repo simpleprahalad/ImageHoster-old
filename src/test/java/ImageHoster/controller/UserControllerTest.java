@@ -1,4 +1,3 @@
-/*
 package ImageHoster.controller;
 
 import ImageHoster.model.User;
@@ -46,7 +45,9 @@ public class UserControllerTest {
     }
 
 
-    //This test checks the controller logic for user signup when user fills the form and send the POST request to the server but the password type is wrong and checks whether the Model type object contains the desired attribute with desired value
+    //This test checks the controller logic for user signup when user fills the form and
+    // send the POST request to the server but the password type is wrong and
+    // checks whether the Model type object contains the desired attribute with desired value
     @Test
     public void signupWithWrongPasswordType() throws Exception {
         User user = new User();
@@ -167,4 +168,3 @@ public class UserControllerTest {
                 .andExpect(content().string(containsString("Image Hoster")));
     }
 }
-*/
